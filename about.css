@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #CFC7D2; /* 70% */
+    margin: 0;
+    padding: 0;
+}
+
+
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #D4CBE5; /* 10% */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #BEA8AA; /* 10% */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact {
+    text-align: center;
+    padding: 20px;
+}
+
+.email-button {
+    padding: 15px;
+    background-color: #D4CBE5;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+}
+
+ .email {
+    text-align: center;
+    padding: 28px;
+    text-decoration: none;
+    color: #000000;
+ }
