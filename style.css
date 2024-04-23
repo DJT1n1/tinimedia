@@ -34,10 +34,12 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 .iframe-container {
     display: flex;
     justify-content: center;
 }
+
 iframe {
     margin: 0 10px;
 }
