@@ -1,0 +1,43 @@
+/* style.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #CFC7D2; /* 70% */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #D4CBE5; /* 30% */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #BEA8AA; /* 10% */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.iframe-container {
+    display: flex;
+    justify-content: center;
+}
+iframe {
+    margin: 0 10px;
+}
