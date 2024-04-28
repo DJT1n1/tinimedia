@@ -18,6 +18,7 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    box-shadow: 0px 10px 30px 5px #494a4e;
 }
 
 main {
@@ -33,11 +34,72 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    box-shadow: 10px 0px 30px 5px #494a4e;
 }
 .iframe-container {
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
+
 iframe {
     margin: 0 10px;
 }
+
+.discord {
+    background-color: #7289DA;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    position: fixed;
+    left: 29%;
+    margin-top: 20%;
+    font-size: 15px;
+}
+
+.About-Us {
+    background-color: #BEA8AA;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    transition: .5s;
+    overflow: hidden;
+}
+
+.About-Us:hover {
+    background-color: #D4CBE5;
+    color: #fff;
+    box-shadow: 0 0 5px #BEA8AA;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #CFC7D2);
+}
+
+.youtube {
+    background-color: #BEA8AA;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    transition: .5s;
+    overflow: hidden;
+}
+
+.youtube:hover {
+    background-color: #D4CBE5;
+    color: #fff;
+    box-shadow: 0 0 5px #BEA8AA;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #CFC7D2);
+}
+
+
+
